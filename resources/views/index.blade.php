@@ -63,7 +63,7 @@ http://www.templatemo.com/preview/templatemo_309_city_blog
         		<img src="images/slideshow/1.jpeg" alt="image" />
                 <div class="post_box_right">               
 					<h2>Culture</h2>
-				  <div class="post_meta"><strong>Date:</strong> May 26th, 2048 | <strong>Author:</strong> Steve</div>
+				  <div class="post_meta"><strong>Date:{{\Carbon\Carbon::now()->format('jS F Y')}}</strong>{{--for date format--}} | <strong>Author:</strong> Steve</div>
                     <p><a href="#">templatemo.com</a> provides a lot of high quality free css templates for your personal or commercial websites. Credits go to <a rel="nofollow" href="http://www.photovaco.com">PhotoVaco</a> for photos, <a rel="nofollow" href="http://www.brusheezy.com/brushes/1639-Urban">Rawox</a> for brush and <a rel="nofollow" href="http://www.gcmingati.net/wordpress/wp-content/lab/jquery/svwt/">slideViewerPro</a> for image slider.</p>
                    <div class="category">Category: <a href="#">Freebies</a>, <a href="#">Templates</a> | <a href="blog_post.html">244 comments</a></div>
     			</div>
@@ -76,7 +76,7 @@ http://www.templatemo.com/preview/templatemo_309_city_blog
                 
                 <div class="post_box_right">
 	                <h2>Nature</h2>
-				  <div class="post_meta"><strong>Date:</strong> May 18th, 2048 | <strong>Author:</strong> David</div>
+				  <div class="post_meta"><strong>Date:{{\Carbon\Carbon::now()->format('jS F Y')}}</strong>{{--for date format--}} | <strong>Author:</strong> David</div>
                 	<p>Mauris cursus, est at pretium sollicitudin, nunc ligula iaculis quam,   pellentesque dapibus leo velit auctor dui. Vivamus non enim diam, at   rutrum lorem. Praesent ut lacus nulla, nec aliquam nunc. Nam at odio   tortor. Cras porta porta turpis, sed ornare quam adipiscing non. Mauris   sit amet ipsum enim. Mauris et elit eget risus congue malesuada aliquet   eget augue. Duis sit amet tortor libero. </p>
                     <div class="category">Category: <a href="#">Web Design</a>, <a href="#">Templates</a> | <a href="blog_post.html">128 comments</a></div>
                 </div>

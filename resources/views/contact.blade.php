@@ -29,7 +29,7 @@ http://www.templatemo.com/preview/templatemo_309_city_blog
     	<div id="templatemo_content">
         
         	<h1>Contact Us</h1>
-            <p>In ac libero urna. Suspendisse sed odio ut mi auctor blandit. Duis luctus nulla metus, a vulputate mauris. Integer sed nisi sapien, ut gravida mauris. Nam et tellus libero. Cras purus libero, dapibus nec rutrum in, dapibus nec risus. Ut interdum mi sit amet magna feugiat auctor.</p>
+            <p>If you want more information or specifications to add in this website, contact us. We are 24/7 available for your help. This website is purely built for positive use.</p>
             <div class="cleaner h40"></div>
         
            
@@ -38,9 +38,9 @@ http://www.templatemo.com/preview/templatemo_309_city_blog
 					<h3>Our Location</h3>
                 
 					<h6>Mailing Address</h6>
-                   	  	120-330 Vitae urna blandit est egestas, <br />
-                        Pulvinar sit amet convallis eget, 12080<br />
-						Lorem ipsum dolor<br /><br />           		
+                   	  	120-330 Aastha Malik, <br />
+                       Shekh Singh Colony,<br />
+						pin. 1410000 jalandhar.<br /><br />           		
                      	Tel: 020-060-6600<br />
                         Fax: 020-030-7990<br />
 						
@@ -50,7 +50,7 @@ http://www.templatemo.com/preview/templatemo_309_city_blog
                 
                     <form method="post" name="contact" action="#">
 
-                        <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
+                        <label for="author">Name:</label> <input type="text" id="author" name="name" class="required input_field" />
                         <div class="cleaner_h10"></div>
                         
                         <label for="email">Email:</label> <input type="text" id="email" name="email" class="validate-email required input_field" />

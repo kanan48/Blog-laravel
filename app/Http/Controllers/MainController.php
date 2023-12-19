@@ -3,35 +3,41 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Category;
+use Carbon;
 
 class MainController extends Controller
 {
     // Viewing all pages 
-    public function about()
-    {
-        return view ('about');
-    }
 
     public function contact()
     {
-        return view ('contact');
+        $data = Category::all();
+        return view ('contact', compact('data'));
     }
 
     public function blog()
     {
-        return view ('blog_post');
+        $data = Category::all();
+        return view ('blog_post', compact('data'));
     }
 
-    // public function index()
-    // {
-    //     $data = Category::all();
-    //     return view('index', compact('data'));
-    // }
+    public function index()
+    {
+        $data = Category::all();
+        return view('index', compact('data'));
+    }
 
     public function gallery()
     {
-        return view ('gallery');
+        $data = Category::all();
+        return view ('gallery', compact('data'));
+    }
+
+    public function addblog()
+    {
+        $data = Category::all();
+        return view ('addblog', compact('data'));
     }
 
     public function login()

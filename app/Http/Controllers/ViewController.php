@@ -10,6 +10,11 @@ class ViewController extends Controller
     public function index()
     {
         $data = Category::all();
-        return view('index', compact('data'));
+        return view('common.sidebar', compact('data'));
+    }
+
+    public function allblog()
+    {
+        
     }
 }

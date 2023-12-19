@@ -6,11 +6,11 @@
     
     <div class="sidebar_box">
         <h4>Categories</h4>
-        {{-- <ul class="tmo_list">  
+        <ul class="tmo_list">  
             @foreach ($data as $item)
                 <li><a href="">{{$item->categoryname}}</a></li>
             @endforeach
-        </ul> --}}
+        </ul>
     </div>
     {{-- {{route('gallery')}}.$item->id --}}
     

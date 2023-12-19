@@ -18,15 +18,15 @@ use App\Http\Controllers\ViewController;
 
 // Viewing main pages
 Route::get('/index',[ViewController::class,'index'])->name('home');
+Route::get('/index',[MainController::class,'index'])->name('home');
 Route::get('/blog_post',[MainController::class,'blog'])->name('blog');
 Route::get('/gallery',[MainController::class,'gallery'])->name('gallery');
 Route::get('/contact',[MainController::class,'contact'])->name('contact');
-Route::get('/about',[MainController::class,'about'])->name('about');
 Route::get('/login',[MainController::class,'login']);
-Route::get('/',[MainController::class,'signup']);
+Route::get('/signup',[MainController::class,'signup']);
 //Login, Logout and create account
 Route::post('/signup',[AuthController::class,'account'])->name('signup');
 Route::post('/login',[AuthController::class,'loginPost'])->name('loginuser');
 Route::get('/logout',[AuthController::class,'logout'])->name('logout');
-//Categories 
-// Route::get('/index',[ViewController::class,'home'])->name('home');
+// for operations
+Route::get('/addblog',[MainController::class,'addblog'])->name('addblog');

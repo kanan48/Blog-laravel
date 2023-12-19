@@ -51,7 +51,7 @@
 							<div class="form-group">
 								<div class="col-md-12">
 									<input type="submit" value="LOG IN" class="btn btn-warning">
-									<a href="{{url('/')}}">Sign-Up, new to site.</a>
+									<a href="{{route('signup')}}">Sign-Up, new to site.</a>
 								</div>
 							</div>
 						</form>
